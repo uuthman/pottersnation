@@ -1,0 +1,112 @@
+<style>
+body, html {
+height: 100%;
+margin: 0;
+}
+
+.header{
+  text-align: center;
+}
+
+.header a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header a:hover{
+  color: red;
+}
+
+.header-pot{
+  text-align: center;
+}
+
+.navbar-nav > li a {
+ margin-bottom: 0;
+ padding-right: 17px;
+ margin-right: 4px;
+}
+
+.navbar-inverse ul.nav li.active a:hover{
+  background-color: #c13b3b;
+ }
+
+.navbar-inverse ul.nav li a:hover{
+  background-color: #c13b3b;
+ }
+
+h1,h2,h3 {
+	margin:0 0 35px 0;
+	letter-spacing:1px;
+}
+
+p{
+	margin:0 0 25px;
+	font-size:18px;
+	line-height:1.6em;
+}
+a{
+	color:#26a5d3;
+}
+a:hover,a:focus{
+	text-decoration:none;
+	color: red;
+}
+
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+	padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+  }
+
+.header{
+  text-align: center;
+  margin-bottom: 2px;
+  font-size: 20px;
+
+}
+
+.header-pot{
+  text-align: center;
+}
+
+.text-center{
+  margin-top: -16px;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width : 320px) {
+  div.form-group{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+   .btn-lg{
+     margin-top: 5px;
+   }
+}
+
+
+@media only screen and (min-width : 992px) {
+   .header{
+     font-size: 27px;
+  }
+
+   .header-pot{
+     font-size: 19px;
+  }
+
+   .navbar-nav > li a{
+     font-size: 24px;
+  }
+}
+
+</style>

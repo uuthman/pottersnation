@@ -1,0 +1,260 @@
+<style media="screen">
+body, html {
+
+margin: 0;
+height: 100%;
+}
+
+.header{
+  text-align: center;
+}
+
+.header a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header a:hover{
+  color: red;
+}
+
+.header-pot{
+  text-align: center;
+}
+
+.active{
+ margin-right: 0px;
+}
+
+.navbar-nav > li a {
+ margin-bottom: 0;
+ padding-right: 16px;
+ margin-right: 4px;
+}
+
+.navbar-inverse ul.nav li.active a:hover{
+  background-color: #c13b3b;
+ }
+
+.navbar-inverse ul.nav li a:hover{
+  background-color: #c13b3b;
+ }
+
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+ .v-topic a{
+   font-weight: bold;
+   text-decoration: none;
+ }
+
+  .v-topic a:hover{
+    color: red;
+  }
+
+ .btn-sm{
+  border-radius: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+ }
+
+ .social > .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+ .social > .fa:hover {
+    opacity: 0.7;
+}
+
+ .social > .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+ .social > .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+ .social > .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+ .social > .fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+ .img-topic{
+   text-align: center;
+   margin-top: 15px;
+
+}
+
+.img-topic a{
+   font-weight: bold;
+   text-decoration: none;
+ }
+
+  .img-topic a:hover{
+    color: red;
+  }
+
+  .song-title{
+    text-align: center;
+  }
+
+div.panel-body > a{
+  text-decoration: none;
+}
+
+.footer{
+   background-color: black;
+   height: 40px;
+   margin: 10px;
+   
+
+ }
+
+ .footer p{
+   text-align: center;
+   color: white;
+   padding: 10px;
+ }
+
+
+
+ @media only screen and (max-width : 640px)  {
+  .song-review{
+    visibility: hidden;
+
+  }
+ }
+
+ @media only screen and (max-width : 320px)  {
+   .header{
+    font-size: 20px;
+  }
+
+  .header-pot{
+    font-size: 12px;
+  }
+
+  .navbar-nav > li a{
+    font-size: 14px;
+   }
+  .media{
+    margin-top: -150px; 
+  }
+ }
+
+ @media only screen and (max-width : 360px)  {
+  .header{
+    font-size: 20px;
+  }
+
+  .header-pot{
+    font-size: 12px;
+  }
+
+  .navbar-nav > li a{
+    font-size: 14px;
+   }
+  .media{
+    margin-bottom: -100px; 
+  }
+ }
+
+@media only screen and (min-width: 370px) and (max-width: 384px){
+    .header{
+    font-size: 20px;
+  }
+
+  .header-pot{
+    font-size: 12px;
+  }
+
+  .navbar-nav > li a{
+    font-size: 14px;
+   }
+  .media{
+    margin-bottom: -60px;
+  }
+}
+ @media only screen and (min-width: 400px) and (max-width: 500px){
+  .header{
+    font-size: 20px;
+  }
+
+  .header-pot{
+    font-size: 12px;
+  }
+
+  .navbar-nav > li a{
+    font-size: 14px;
+   }
+
+  .media{
+    margin-top: -30px;
+    margin-bottom: 13px;
+
+  }
+ }
+
+ @media only screen and (min-width : 768px) {
+ .header{
+   font-size: 24px;
+ }
+
+ .header-pot{
+   font-size: 15px;
+ }
+
+ .navbar-nav > li a{
+   font-size: 17px;
+ }
+}
+
+ @media only screen and (min-width : 992px) {
+   .header{
+     font-size: 30px;
+  }
+
+   .header-pot{
+     font-size: 21px;
+  }
+
+   .navbar-nav > li a{
+     font-size: 24px;
+  }
+}
+
+ 
+
+
+
+</style>
